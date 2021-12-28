@@ -1,0 +1,396 @@
+@import url(reset.css);
+@import url(font.css);
+
+.conteiner {
+    width: 1440px;
+    height: 900px;
+    margin: 50px auto;
+}
+
+.menu {
+    width: 1440px;
+    height: 130px;
+    text-align: center;
+}
+
+.menu_item {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    line-height: 130px;
+    padding: 70px;
+}
+.menu_aktive {
+    color: #2684f7;
+    font-weight: bold;
+}
+
+.main {
+    width: 1404px;
+    height: 726px;
+    margin: 0 auto;
+    padding: 20px 20px 0px 160px;
+    background: #EAEBED;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cube{
+    width: 588px;
+    height: 679px;
+    /* border: 1px solid black; */
+}
+
+.cube_text{
+    width: 615px;
+    height: 149px;
+    background: #FEFEFE;
+    border-radius: 30px;
+}
+
+.A_P{
+    padding: 40px 0px 0px 60px;
+}
+
+.Text_Andy{
+    margin: -50px 0px 0px 160px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.Text_Cube{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B1B1B1;
+    padding: 0px 0px 0px 140px;
+}
+
+.change_password{
+    width: 618px;
+    height: 517px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    margin: 20px 0px 0px 0px;
+}
+
+.ppp_2{
+    padding: 40px 0px 0px 60px;
+}
+
+.Change_P{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin: -45px 0px 0px 135px;
+}
+
+.Change_P_2{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B1B1B1;
+    margin: 0px 0px 0px 135px
+}
+
+.password{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin: 10px 0px 0px 60px
+}
+
+.pass{
+    width: 524px;
+    height: 63px;
+    background: #FEFEFE;
+    border: 2px solid #2785F7;
+    box-sizing: border-box;
+    border-radius: 21px;
+    margin: 20px 0px 0px 55px
+}
+
+.company{
+    width: 588px;
+    height: 679px; 
+    /* border: 1px solid black; */
+    background: #FEFEFE;
+    border-radius: 30px; 
+    padding: 0px 20px 0px 0px;
+}
+
+.pict{
+    margin: 40px 0px 0px 55px
+}
+
+.Comp_text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin: -50px 0px 0px 150px
+}
+
+.Comp_s{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #B1B1B1;
+    margin: 0px 0px 0px 150px
+}
+
+.Logos_text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin: 10px 0px 0px 60px
+}
+
+.Log{
+    width: 494px;
+    height: 64px;
+    background: #FEFEFE;
+    border: 2px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 21px;
+    margin: 15px 0px 0px 60px
+}
+
+.Lviv{
+    width: 494px;
+    height: 100px;
+    background: #FEFEFE;
+    border: 2px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 21px;
+    margin: 15px 0px 0px 60px
+}
+
+.City{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin: -20px 0px 0px 315px
+}
+
+.Enter_country{
+    width: 237px;
+    height: 63px;
+    background: #FEFEFE;
+    border: 2px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 21px;
+    margin: 15px 0px 0px 60px
+}
+
+.Enter_city{
+    width: 237px;
+    height: 63px;
+    background: #FEFEFE;
+    border: 2px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 21px;
+    margin: 0px 0px 0px 15px
+}
+
+.left {
+    width: 100px;
+    height: 420px;
+    margin-left: -135px;
+    background-color: #fefefe;
+    margin-top: 145px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.fol {
+    background-image: url(../img/folder.svg);
+  }
+  
+  .mon {
+    background-image: url(../img/monitor.svg);
+  }
+  .user {
+    background-image: url(../img/users-alt.svg);
+  }
+  .cloud {
+    background-image: url(../img/cloud-share.svg);
+  }
+  .cog {
+    background-image: url(../img/cog.svg);
+  }
+
+  .left_img {
+    width: 35px;
+    margin-top: 33px;
+    margin-left: 35.75;
+  }
+  
+  .size-left {
+    width: 35px;
+    height: 35px;
+    margin: 40px auto;
+  }
+
+.fol:hover,
+.mon:hover,
+.user:hover,
+.cloud:hover,
+.cog:hover {
+  width: 40px;
+  background-image: url(../img/folder3323.png);
+  cursor: pointer;
+  background-size: cover;
+  transform: scale(1.5);
+}
+
+.mon:hover {
+  background-image: url(../img/monitor50.png);
+}
+.user:hover {
+  background-image: url(../img/users-alt_50.png);
+}
+.cloud:hover {
+  background-image: url(../img/cloud-share50.png);
+}
+.cog:hover {
+  background-image: url(../img/cog_50.png);
+}
+
+.fol::after{
+
+    display: block;
+    content:"Project";
+    position: absolute;
+    z-index: -1;
+    right:-25px;
+    top: 45px;
+    transition-property: width;
+    transition-duration: 0.7s;
+}
+
+.fol:hover::after{
+    z-index: 1;
+    top: 10px;
+    right: -40px;
+    background-color: blue;
+    color: white;
+    transition-property: right;
+    transition-duration: 0.7s;
+    
+}
+
+.mon::after {
+    display: block;
+    content:"Account";
+    position: absolute;
+    z-index: -1;
+    right:-25px;
+    top: 45px;
+    transition-property: width;
+    transition-duration: 0.7s;
+}
+
+.mon:hover::after{
+    z-index: 1;
+    top: 10px;
+    right: -50px;
+    background-color: blue;
+    color: white;
+    transition-property: right;
+    transition-duration: 0.7s;
+    
+}
+
+.user::after {
+    display: block;
+    content:"Groups";
+    position: absolute;
+    z-index: -1;
+    right:-25px;
+    top: 45px;
+    transition-property: width;
+    transition-duration: 0.7s;
+}
+
+.user:hover::after{
+    z-index: 1;
+    top: 10px;
+    right: -40px;
+    background-color: blue;
+    color: white;
+    transition-property: right;
+    transition-duration: 0.7s;
+    
+}
+
+.cloud::after{
+    display: block;
+    content:"Cloud";
+    position: absolute;
+    z-index: -1;
+    right:-25px;
+    top: 45px;
+    transition-property: width;
+    transition-duration: 0.7s;
+}
+
+.cloud:hover::after{
+    z-index: 1;
+    top: 10px;
+    right: -35px;
+    background-color: blue;
+    color: white;
+    transition-property: right;
+    transition-duration: 0.7s;
+    
+}
+
+.cog::after{
+    display: block;
+    content:"Setting";
+    position: absolute;
+    z-index: -1;
+    right:-25px;
+    top: 45px;
+    transition-property: width;
+    transition-duration: 0.7s;
+}
+
+.cog:hover::after{
+    z-index: 1;
+    top: 10px;
+    right: -40px;
+    background-color: blue;
+    color: white;
+    transition-property: right;
+    transition-duration: 0.7s;
+    
+}

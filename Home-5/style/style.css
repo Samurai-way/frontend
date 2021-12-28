@@ -1,0 +1,468 @@
+@import url(./reset.css);
+@import url(../style/font.css);
+
+body {
+  background-color: #af9696;
+  font-family: "Open Sans", sans-serif;
+}
+
+.conteiner {
+  width: 1440px;
+  height: 900px;
+  background-color: #fefefe;
+  margin: 50px auto;
+}
+
+.menu {
+  width: 1440px;
+  height: 130px;
+  text-align: center;
+}
+
+.menu_item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  line-height: 130px;
+  padding: 70px;
+}
+
+.menu_aktive {
+  color: #2684f7;
+  font-weight: bold;
+}
+
+.main {
+  width: 1404px;
+  height: 726px;
+  background-color: #eaebed;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.name,
+.logos {
+  width: 592px;
+  height: 130px;
+  background-color: #fefefe;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.name {
+  margin-left: 158px;
+  margin-right: 34px;
+  width: 592px;
+}
+
+.logos {
+  width: 583px;
+}
+
+.big_box {
+  width: 1212px;
+  height: 447px;
+  background-color: #eaebed;
+  margin-left: 158px;
+  margin-top: 34px;
+  border-radius: 30px;
+  display: flex;
+}
+
+.description_team {
+  width: 732px;
+  height: 410px;
+  background-color: #eaebed;
+  border-radius: 30px;
+  margin-right: 33px;
+}
+
+.data_portabiliry {
+  width: 447px;
+  height: 410px;
+  background-color: #fefefe;
+  border-radius: 30px;
+}
+
+.description_one,
+.team_one {
+  width: 732px;
+  height: 194px;
+  border-radius: 30px;
+  background-color: #fefefe;
+}
+
+.description_one {
+  margin-bottom: 33px;
+}
+
+.left {
+  width: 100px;
+  height: 420px;
+  margin-left: 41px;
+  background-color: #fefefe;
+  margin-top: -50px;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.team_one_img {
+  width: 120px;
+  margin-left: 42px;
+  margin-right: 49px;
+  float: left;
+}
+.data_portabiliry_img {
+  width: 120px;
+  margin: 34px 34px 25px 42px;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #b1b1b1;
+}
+.project {
+  margin-left: 42px;
+  margin-top: 32px;
+}
+.title_bolt {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-left: 42px;
+}
+.size_D {
+  text-transform: capitalize;
+  padding-top: 32px;
+}
+.text_dec {
+  font-weight: bold;
+  font-size: 18px;
+  color: #b1b1b1;
+  margin-left: 33px;
+  line-height: 160%;
+}
+.data {
+  text-transform: capitalize;
+}
+
+.left_img {
+  width: 35px;
+  margin-top: 33px;
+  margin-left: 35.75;
+}
+
+.size-left {
+  width: 35px;
+  height: 35px;
+  margin: 40px auto;
+}
+
+.fol {
+  background-image: url(../img/folder.svg);
+}
+
+.mon {
+  background-image: url(../img/monitor.svg);
+}
+.user {
+  background-image: url(../img/users-alt.svg);
+}
+.cloud {
+  background-image: url(../img/cloud-share.svg);
+}
+.cog {
+  background-image: url(../img/cog.svg);
+}
+
+.fol:hover,
+.mon:hover,
+.user:hover,
+.cloud:hover,
+.cog:hover {
+  width: 40px;
+  background-image: url(../img/folder3323.png);
+  cursor: pointer;
+  background-size: cover;
+  transform: scale(1.5);
+}
+
+.mon:hover {
+  background-image: url(../img/monitor50.png);
+}
+.user:hover {
+  background-image: url(../img/users-alt_50.png);
+}
+.cloud:hover {
+  background-image: url(../img/cloud-share50.png);
+}
+.cog:hover {
+  background-image: url(../img/cog_50.png);
+}
+
+.fol::after{
+
+  display: block;
+  content:"Project";
+  position: absolute;
+  z-index: -1;
+  right:-25px;
+  top: 45px;
+  transition-property: width;
+  transition-duration: 0.7s;
+}
+
+.fol:hover::after{
+  z-index: 1;
+  top: 10px;
+  right: -45px;
+  background-color: blue;
+  color: white;
+  transition-property: right;
+  transition-duration: 0.7s;
+  
+}
+
+.mon::after {
+  display: block;
+  content:"Account";
+  position: absolute;
+  z-index: -1;
+  right:-25px;
+  top: 45px;
+  transition-property: width;
+  transition-duration: 0.7s;
+}
+
+.mon:hover::after{
+  z-index: 1;
+  top: 10px;
+  right: -55px;
+  background-color: blue;
+  color: white;
+  transition-property: right;
+  transition-duration: 0.7s;
+  
+}
+
+.user::after {
+  display: block;
+  content:"Groups";
+  position: absolute;
+  z-index: -1;
+  right:-25px;
+  top: 45px;
+  transition-property: width;
+  transition-duration: 0.7s;
+}
+
+.user:hover::after{
+  z-index: 1;
+  top: 10px;
+  right: -50px;
+  background-color: blue;
+  color: white;
+  transition-property: right;
+  transition-duration: 0.7s;
+  
+}
+
+.cloud::after{
+  display: block;
+  content:"Cloud";
+  position: absolute;
+  z-index: -1;
+  right:-25px;
+  top: 45px;
+  transition-property: width;
+  transition-duration: 0.7s;
+}
+
+.cloud:hover::after{
+  z-index: 1;
+  top: 10px;
+  right: -35px;
+  background-color: blue;
+  color: white;
+  transition-property: right;
+  transition-duration: 0.7s;
+  
+}
+
+.cog::after{
+  display: block;
+  content:"Setting";
+  position: absolute;
+  z-index: -1;
+  right:-25px;
+  top: 45px;
+  transition-property: width;
+  transition-duration: 0.7s;
+}
+
+.cog:hover::after{
+  z-index: 1;
+  top: 10px;
+  right: -45px;
+  background-color: blue;
+  color: white;
+  transition-property: right;
+  transition-duration: 0.7s;
+  
+}
+
+.team {
+  width: 1386px;
+  height: 742px;
+  background-color: #eaebed;
+  border-radius: 41px;
+  margin: 0 auto;
+}
+
+.team_first {
+  width: 1300px;
+  height: 325px;
+  display: flex;
+  justify-content: space-between;
+  background-color: eaebed;
+  margin: 0 auto;
+}
+
+.team_komand_first {
+  width: 300px;
+  height: 325px;
+  background-color: white;
+  border-radius: 41px;
+  margin-top: 56px;
+}
+.team_komand_first:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+
+.team_sec {
+  width: 1300px;
+  height: 278px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.team_komand_sec {
+  width: 300px;
+  height: 278px;
+  background-color: #ffffff;
+  margin-top: 80px;
+  border-radius: 41px;
+}
+.team_komand_sec:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.team_img {
+  display: block;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+.title_bolt_team {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 3px auto;
+  font-family: "sultannahia", sans-serif;
+}
+.text_team_p {
+  text-align: center;
+  margin: 2px auto;
+  font-family: "sultannahia", sans-serif;
+}
+.text_team_pp {
+  text-align: center;
+  font-family: "sultannahia", sans-serif;
+  margin: 40px auto;
+}
+.size_team_img {
+  margin-top: 10px;
+}
+.size_pp {
+  margin: 60px auto;
+}
+.small_down {
+  width: 35px;
+  height: 35px;
+  border-radius: 11px;
+  margin: 0 auto;
+  background-image: url(../img/download_21.png);
+  background-size: cover;
+  width: 35px;
+}
+.table_les {
+  width: 852px;
+  height: 1000px;
+  margin: 0px auto;
+  padding-top: 100px;
+}
+.table {
+  width: 852px;
+}
+th,
+td {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #323232;
+  padding: 20px;
+}
+tr:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.small_down:hover {
+  background-image: url(../img/download_1.png);
+  background-size: cover;
+  width: 35px;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.team_komand_first::after {
+  content: "";
+  background-image: url(../img/deleted.png);
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 35px;
+  margin: -335px 0px 0px 275px;
+  z-index: -1;
+}
+
+.team_komand_first:hover:after {
+  z-index: 1;
+}
+
+.team_komand_sec::after{
+  content: "";
+  background-image: url(../img/deleted.png);
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 35px;
+  margin: -335px 0px 0px 275px;
+  z-index: -1;
+}
+
+.team_komand_sec:hover:after {
+  z-index: 1;
+}
+
